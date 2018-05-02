@@ -1,0 +1,20 @@
+<h1>Listing activities</h1>
+
+<%= link_to 'New activity', new_activity_path %>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Duration</th>
+    <th></th>
+  </tr>
+
+  <% @activities.each do |activity| %>
+    <tr>
+      <td><%= activity.title %></td>
+      
+      <td><%= activity.duration %></td>
+
+    </tr>
+  <% end %>
+</table>
