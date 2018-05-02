@@ -5,7 +5,7 @@ class ActivitiesController < ApplicationController
   end
 
   def new
-
+    @activity = Activity.new
   end
 
   def show
@@ -15,8 +15,12 @@ class ActivitiesController < ApplicationController
   def create
     @activity = Activity.new(activity_params)
 
-    @activity.save
-    redirect_to @activity
+    if @activity.save
+      redirect_to @activity
+    else
+      render 'new'
+    end
+
   end
 
   private
