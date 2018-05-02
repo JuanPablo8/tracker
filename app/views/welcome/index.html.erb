@@ -1,5 +1,37 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tracker Home</title>
+  <link rel='stylesheet' type='text/css' href='/welcome.scss'>
 
-<h1>Welcome to the good habits app</h1>
 
-<%= link_to 'New Activity', new_activity_path %>
+</head>
+
+<body>
+
+  <div id="home">
+
+
+  <h2 class="title"> Welcome to the good habits app</h2>
+
+
+  <div class="menu">
+
+   <p><button class="action"><a><%= link_to 'New Activity', new_activity_path %></a></button></p>
+
+    <p><button class="action"><a><%= link_to 'Activity Log', activities_path %></a></button></p>
+
+
+  </div>
+
+    <div class="center">
+      <p>
+      <h2 class="phrase"> Clever phrase</h2></p>
+    </div>
+
+
+  </div>
+
+</body>
