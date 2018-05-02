@@ -23,6 +23,13 @@ class ActivitiesController < ApplicationController
 
   end
 
+  def destroy
+    @activity = Activity.find(params[:id])
+    @activity.destroy
+
+    redirect_to activities_path
+  end
+
   private
   def activity_params
     params.require(:activity).permit(:title, :duration)
