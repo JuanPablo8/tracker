@@ -51,6 +51,10 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 #   ActiveRecord::Base.establish_connection if defined?(ActiveRecord)
 # end
 #
+on_worker_boot do
+  # Valid on Rails 4.1+ using the `config/database.yml` method of setting `pool` size
+  ActiveRecord::Base.establish_connection
+end
 
 # Allow puma to be restarted by `rails restart` command.
 plugin :tmp_restart
