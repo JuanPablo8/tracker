@@ -1,7 +1,7 @@
 class CommentsController < ApplicationController
 
   #authentication required to create new activity
-  http_basic_authenticate_with name: "tracker", password: "1234", only: :destroy
+  #http_basic_authenticate_with name: "tracker", password: "1234", only: :destroy
 
   def index
     render 'activities/show'
