@@ -12,21 +12,18 @@
 
   <div id="home">
 
-    #including logo
     <div class="logo"><%= image_tag("tracker_logo.png", :alt => "logo"  ) %></div>
 
   <h2 class="title"> Welcome to the Tracker app</h2>
 
   <div class="menu">
 
-    #Main menu buttons
    <p><button class="action"><a><%= link_to 'New Activity', new_activity_path %></a></button></p>
 
     <p><button class="action"><a><%= link_to 'Activity Log', activities_path %></a></button></p>
 
   </div>
 
-     #App introduction message
     <div class="center">
     <p class="message"> This app is designed to encourage a healthier lifestyle. Now you can keep <br>
       track of your good habits (reading, running, swimming).  You can register <br>  new activities,
