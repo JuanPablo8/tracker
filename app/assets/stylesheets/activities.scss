@@ -1,3 +1,392 @@
 // Place all the styles related to the Activities controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+.caja{
+  box-sizing: border-box;
+  position: absolute;
+  align-self: center;
+  top: 40px;
+  bottom: 40px;
+  //padding: 50px 30px;
+  margin-left: 110px;
+  height: 70vw;
+  width: 80vw;
+  box-shadow: 0px 25px 25px 0px rgba(153,153,153,0.5);
+  border-radius: 4px;
+  background-color: lightsteelblue;
+}
+
+.card{
+  box-sizing: border-box;
+  position: absolute;
+  align-self: center;
+  top: 60px;
+  left: 300px;
+  bottom: 100px;
+  //padding: 50px 30px;
+  margin-left: 110px;
+  height: 30vw;
+  width: 35vw;
+  box-shadow: 0px 25px 25px 0px rgba(153,153,153,0.5);
+  border-radius: 4px;
+  background-color: lightseagreen;
+}
+
+.show_card{
+  box-sizing: border-box;
+  position: absolute;
+  align-self: center;
+  top: 60px;
+  left: 300px;
+  bottom: 100px;
+  //padding: 50px 30px;
+  margin-left: 110px;
+  height: 37vw;
+  width: 35vw;
+  box-shadow: 0px 25px 25px 0px rgba(153,153,153,0.5);
+  border-radius: 4px;
+  background-color: peachpuff;
+}
+
+.title_2 {
+  //display: inline-block;
+  position: relative;
+  left: 40px;
+  top: 20px;
+  //margin: 70px;
+  text-align: left;
+  font-family: "Calibri Light";
+  font-weight: bold;
+  font-size: x-large;
+  color: darkslategray;
+}
+
+
+//.title_3 {
+//  //display: inline-block;
+//  position: relative;
+//  //left: 80px;
+//  //top: 40px;
+//  //margin: 70px;
+//  text-align: left;
+//  font-family: "Calibri Light";
+//  font-size: medium;
+//  color: #222222;
+//}
+
+.title_4 {
+  //display: inline-block;
+  position: relative;
+  left: 50px;
+  top: 20px;
+  //margin: 70px;
+  text-align: left;
+  font-family: 'open sans', Sans-Serif;
+  font-size: medium;
+  color: darkslategrey;
+}
+
+.title_5 {
+  //display: inline-block;
+  position: relative;
+  left: 50px;
+  top: 30px;
+  //margin: 70px;
+  text-align: left;
+  font-family: 'open sans', Sans-Serif;
+  font-size: medium;
+  color: darkslategray;
+}
+
+.title_6 {
+  //display: inline-block;
+  position: relative;
+  left: 45px;
+  top: 40px;
+  //margin: 70px;
+  text-align: left;
+  font-family: 'open sans', Sans-Serif;
+  font-size: x-large;
+  font-weight: bolder;
+  color: darkslategray;
+}
+
+.title_7 {
+  //display: inline-block;
+  position: absolute;
+  left: 41px;
+  top: 280px;
+  //margin: 70px;
+  text-align: left;
+  font-family: 'open sans', Sans-Serif;
+  font-size: medium;
+  color: darkslategray;
+}
+
+.title_8 {
+  //display: inline-block;
+  position: relative;
+  left: 45px;
+  top: 32px;
+  //margin: 70px;
+  text-align: left;
+  font-family: 'open sans', Sans-Serif;
+  font-size: small;
+  color: darkslategray;
+}
+
+.form_comment{
+  position: absolute;
+  left: 40px;
+  top: 320px;
+  //margin: 70px;
+
+}
+
+.boton2{
+  position: absolute;
+  left: 87px;
+  top: 350px;
+  //margin: 70px;
+
+
+}
+
+
+.form_label{
+  position: relative;
+  left: 90px;
+  top: 40px;
+  //margin: 70px;
+  font-family: 'open sans', Sans-Serif;
+  font-size: large;
+  color: #222222;
+
+}
+
+.form_label2{
+  position: relative;
+  left: 70px;
+  top: 40px;
+  //margin: 70px;
+  font-family: 'open sans', Sans-Serif;
+  font-size: large;
+  color: #222222;
+
+}
+
+.form_text{
+  //display: block;
+  position: relative;
+  left: 165px;
+  top: 20px;
+
+
+
+}
+
+.form_duration{
+  position: relative;
+  left: 165px;
+  top: 8px;
+
+
+}
+
+.boton{
+  position: relative;
+  left: 240px;
+  top: 13px;
+  //margin: 70px;
+
+
+}
+
+.title_1 {
+  //display: inline-block;
+  position: relative;
+  left: 85px;
+  top: 25px;
+  //margin: 70px;
+  text-align: left;
+  font-family: "Courier New", Sans-Serif;
+  font-size: x-large;
+  color: #222222;
+}
+
+.action-act {
+  display: inline-block;
+  position: relative;
+  left: 660px;
+  top: -10px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 10px 10px;
+  width: 145px;
+  height: auto;
+  font-size: 1em;
+  font-family: "Courier New", Sans-Serif;
+  box-shadow: 0px 10px 10px 0px rgba(153,153,153,0.5);
+  text-align: center;
+  border: 0px;
+  background-color: #00A5D2;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+.action-act:hover {
+  background-color: white;
+  cursor: pointer;
+  color: darkslategray;
+}
+
+.action-home {
+  display: inline-block;
+  position: relative;
+  left: 690px;
+  top: -10px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 10px 10px;
+  width: 100px;
+  height: auto;
+  font-size: 1em;
+  font-family: "Courier New", Sans-Serif;
+  box-shadow: 0px 10px 10px 0px rgba(153,153,153,0.5);
+  text-align: center;
+  border: 0px;
+  background-color: #00A5D2;
+}
+
+
+.action-home:hover {
+  background-color: white;
+  cursor: pointer;
+  color: darkslategray;
+}
+
+.action-home-2 {
+  display: block;
+  position: absolute;
+  left: 300px;
+  top: 405px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 10px 10px;
+  width: 100px;
+  height: auto;
+  font-size: 1em;
+  font-family: "open sans", Sans-Serif;
+  box-shadow: 0px 10px 10px 0px rgba(153,153,153,0.5);
+  text-align: center;
+  border: 0px;
+  background-color: linen;
+}
+
+
+.action-home-2:hover {
+  background-color: white;
+  cursor: pointer;
+  color: darkslategray;
+}
+
+.action-back {
+  display: block;
+  position: relative;
+  left: 50px;
+  top: 50px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 7px 7px;
+  width: 80px;
+  height: auto;
+  font-size: 1em;
+  font-family: 'open sans', Sans-Serif;
+  box-shadow: 0px 10px 10px 0px rgba(153,153,153,0.5);
+  text-align: center;
+  border: 0px;
+  background-color: lightgray;
+}
+
+
+.action-back:hover {
+  background-color: white;
+  cursor: pointer;
+  color: darkslategray;
+}
+
+.action-table{
+  display: inline-block;
+  position: relative;
+  left: -155px;
+  //box-sizing: border-box;
+  border-radius: 4px;
+  width: 65px;
+  height: auto;
+  font-size: small;
+  font-family: "Courier New", Sans-Serif;
+  box-shadow: 0px 3px 3px 0px rgba(153,153,153,0.5);
+  text-align: center;
+  border: 0px;
+  background-color: #00A5D2;
+}
+
+.action-comments{
+  display: inline-block;
+  position: relative;
+  left: -135px;
+  //box-sizing: border-box;
+  border-radius: 4px;
+  width: 85px;
+  height: auto;
+  font-size: small;
+  font-family: "Courier New", Sans-Serif;
+  box-shadow: 0px 3px 3px 0px rgba(153,153,153,0.5);
+  text-align: center;
+  border: 0px;
+  background-color: #00A5D2;
+}
+
+.action-table:hover {
+  background-color: white;
+  cursor: pointer;
+  color: darkslategray;
+}
+
+.action-comments:hover {
+  background-color: white;
+  cursor: pointer;
+  color: darkslategray;
+}
+
+.tabla{
+  //border: 1px solid black;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 1em;
+  font-family: "Courier New", Sans-Serif;
+  //border-collapse: collapse;
+
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.th{
+  //font-family: "Courier New", Sans-Serif;
+  font-weight: normal;
+  //text-align: left;
+}
+
+.td{
+  //font-family: "Courier New", Sans-Serif;
+  font-weight: lighter;
+  //text-align: left;
+}
