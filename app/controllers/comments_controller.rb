@@ -1,5 +1,7 @@
 class CommentsController < ApplicationController
 
+  http_basic_authenticate_with name: "tracker", password: "1234", only: :destroy
+
   def index
     render 'activities/show'
   end

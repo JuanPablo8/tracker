@@ -44,7 +44,7 @@
   bottom: 100px;
   //padding: 50px 30px;
   margin-left: 110px;
-  height: 37vw;
+  height: 38vw;
   width: 35vw;
   box-shadow: 0px 25px 25px 0px rgba(153,153,153,0.5);
   border-radius: 4px;
@@ -273,8 +273,8 @@ a:link{
 .action-home-2 {
   display: block;
   position: absolute;
-  left: 300px;
-  top: 405px;
+  left: 195px;
+  top: 420px;
   box-sizing: border-box;
   border-radius: 3px;
   padding: 10px 10px;
@@ -295,6 +295,29 @@ a:link{
   color: darkslategray;
 }
 
+.action-log {
+  display: block;
+  position: absolute;
+  left: 320px;
+  top: 420px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 10px 10px;
+  width: 100px;
+  height: auto;
+  font-size: 1em;
+  font-family: "open sans", Sans-Serif;
+  box-shadow: 0px 10px 10px 0px rgba(153,153,153,0.5);
+  text-align: center;
+  border: 0px;
+  background-color: linen;
+}
+
+.action-log:hover {
+  background-color: white;
+  cursor: pointer;
+  color: darkslategray;
+}
 .action-back {
   display: block;
   position: relative;

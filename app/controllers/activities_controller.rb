@@ -1,5 +1,8 @@
 class ActivitiesController < ApplicationController
 
+  http_basic_authenticate_with name: "tracker", password: "1234", except: [:index, :show]
+
+
   def index
     @activities = Activity.all
   end
