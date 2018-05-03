@@ -3,14 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-
 .caja{
   box-sizing: border-box;
   position: absolute;
   align-self: center;
   top: 40px;
   bottom: 40px;
-  //padding: 50px 30px;
   margin-left: 110px;
   height: 70vw;
   width: 80vw;
@@ -26,7 +24,6 @@
   top: 60px;
   left: 300px;
   bottom: 100px;
-  //padding: 50px 30px;
   margin-left: 110px;
   height: 30vw;
   width: 35vw;
@@ -42,7 +39,6 @@
   top: 60px;
   left: 300px;
   bottom: 100px;
-  //padding: 50px 30px;
   margin-left: 110px;
   height: 38vw;
   width: 35vw;
@@ -52,11 +48,9 @@
 }
 
 .title_2 {
-  //display: inline-block;
   position: relative;
   left: 40px;
   top: 20px;
-  //margin: 70px;
   text-align: left;
   font-family: "Calibri Light";
   font-weight: bold;
@@ -65,24 +59,12 @@
 }
 
 
-//.title_3 {
-//  //display: inline-block;
-//  position: relative;
-//  //left: 80px;
-//  //top: 40px;
-//  //margin: 70px;
-//  text-align: left;
-//  font-family: "Calibri Light";
-//  font-size: medium;
-//  color: #222222;
-//}
+
 
 .title_4 {
-  //display: inline-block;
   position: relative;
   left: 50px;
   top: 20px;
-  //margin: 70px;
   text-align: left;
   font-family: 'open sans', Sans-Serif;
   font-size: medium;
@@ -90,11 +72,9 @@
 }
 
 .title_5 {
-  //display: inline-block;
   position: relative;
   left: 50px;
   top: 30px;
-  //margin: 70px;
   text-align: left;
   font-family: 'open sans', Sans-Serif;
   font-size: medium;
@@ -102,11 +82,9 @@
 }
 
 .title_6 {
-  //display: inline-block;
   position: relative;
   left: 45px;
   top: 40px;
-  //margin: 70px;
   text-align: left;
   font-family: 'open sans', Sans-Serif;
   font-size: x-large;
@@ -115,11 +93,9 @@
 }
 
 .title_7 {
-  //display: inline-block;
   position: absolute;
   left: 41px;
   top: 280px;
-  //margin: 70px;
   text-align: left;
   font-family: 'open sans', Sans-Serif;
   font-size: medium;
@@ -127,11 +103,9 @@
 }
 
 .title_8 {
-  //display: inline-block;
   position: relative;
   left: 45px;
   top: 32px;
-  //margin: 70px;
   text-align: left;
   font-family: 'open sans', Sans-Serif;
   font-size: small;
@@ -142,7 +116,6 @@
   position: absolute;
   left: 40px;
   top: 320px;
-  //margin: 70px;
 
 }
 
@@ -150,8 +123,6 @@
   position: absolute;
   left: 87px;
   top: 350px;
-  //margin: 70px;
-
 
 }
 
@@ -160,7 +131,6 @@
   position: relative;
   left: 90px;
   top: 40px;
-  //margin: 70px;
   font-family: 'open sans', Sans-Serif;
   font-size: large;
   color: #222222;
@@ -171,7 +141,6 @@
   position: relative;
   left: 70px;
   top: 40px;
-  //margin: 70px;
   font-family: 'open sans', Sans-Serif;
   font-size: large;
   color: #222222;
@@ -179,38 +148,27 @@
 }
 
 .form_text{
-  //display: block;
   position: relative;
   left: 165px;
   top: 20px;
-
-
-
 }
 
 .form_duration{
   position: relative;
   left: 165px;
   top: 8px;
-
-
 }
 
 .boton{
   position: relative;
   left: 240px;
   top: 13px;
-  //margin: 70px;
-
-
 }
 
 .title_1 {
-  //display: inline-block;
   position: relative;
   left: 85px;
   top: 25px;
-  //margin: 70px;
   text-align: left;
   font-family: "Courier New", Sans-Serif;
   font-size: x-large;
@@ -347,7 +305,6 @@ a:link{
   display: inline-block;
   position: relative;
   left: -155px;
-  //box-sizing: border-box;
   border-radius: 4px;
   width: 65px;
   height: auto;
@@ -363,7 +320,6 @@ a:link{
   display: inline-block;
   position: relative;
   left: -135px;
-  //box-sizing: border-box;
   border-radius: 4px;
   width: 85px;
   height: auto;
@@ -388,13 +344,11 @@ a:link{
 }
 
 .tabla{
-  //border: 1px solid black;
   width: 100%;
   height: auto;
   text-align: center;
   font-size: 1em;
   font-family: "Courier New", Sans-Serif;
-  //border-collapse: collapse;
 
 }
 
@@ -403,13 +357,9 @@ tr:nth-child(even) {
 }
 
 .th{
-  //font-family: "Courier New", Sans-Serif;
   font-weight: normal;
-  //text-align: left;
 }
 
 .td{
-  //font-family: "Courier New", Sans-Serif;
   font-weight: lighter;
-  //text-align: left;
 }

@@ -1,6 +1,8 @@
 class Activity < ApplicationRecord
 
   has_many :comments
+
+  #length validation for title and duration of a new activity
   validates :title, presence: true,
             length: { minimum: 2, maximum: 30 }
 
