@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.5.1'
+
 gem 'rails',        '5.1.4'
 gem 'puma',         '3.9.1'
 gem 'sass-rails',   '5.0.6'
@@ -12,8 +14,8 @@ gem 'jbuilder',     '2.7.0'
 
 group :development, :test do
   #gem 'sqlite3', '1.3.13'
-  #gem 'sqlite3', git: "https://github.com/larskanis/sqlite3-ruby", branch: "add-gemspec"
-  gem 'pg', '1.0.0'
+  gem 'sqlite3', git: "https://github.com/larskanis/sqlite3-ruby", branch: "add-gemspec"
+  #gem 'pg', '1.0.0'
   gem 'byebug',  '9.0.6', platform: :mri
 end
 
@@ -24,9 +26,9 @@ group :development do
   gem 'spring-watcher-listen', '2.0.1'
 end
 
-#group :production do
-#  gem 'pg', '0.20.0'
-#end
+group :production do
+  gem 'pg', '0.20.0'
+end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
