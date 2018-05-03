@@ -32,7 +32,7 @@ body {
 }
 
 .menu {
-  display: inline-block;
+  //display: block;
   border-radius: 4px;
   margin-left: 20px;
   box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
@@ -45,13 +45,16 @@ body {
 
 .center {
   display: inline-block;
-  border-radius: 2px;
-  margin-left: 300px;
+  position: relative;
+  border-radius: 4px;
+  //margin: 0px 0 -200px 330px;
+  left: 320px;
+  top: -412px;
   box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
   border: 1px solid #ddd;
-  padding: 10px 12px;
-  height: inherit;
-  width: 800px;
+  //padding: 50px 12px;
+  height: 68%;
+  width: 860px;
   background-color: lightslategray;
 }
 

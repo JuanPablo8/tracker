@@ -1,4 +1,6 @@
 class Activity < ApplicationRecord
+
+  has_one :comment
   validates :title, presence: true,
             length: { minimum: 2, maximum: 30 }
 
