@@ -1,7 +1,7 @@
 
 <div class="caja">
   <div></div>
-<h1 class="title_1">Activity log</h1>
+<h1 class="title_1">Select an activity</h1>
 
 <button class="action-act"><a><%= link_to 'New activity', new_activity_path %></a></button>
   <button class="action-home"><a><%= link_to 'Home', welcome_index_path %></a></button>
@@ -9,24 +9,31 @@
 
 <table class="tabla">
   <tr>
-    <th>Title</th>
-    <th>Duration</th>
+    <th>Activity</th>
+    <th>Options</th>
     <th></th>
   </tr>
 
   <% @activities.each do |activity| %>
-    <tr >
-      <td><%= activity.title %></td>
-
-      <td><%= activity.duration %></td>
-
-      <td><button class="action-table"><a><%= link_to 'Delete', activity_path(activity),
-                      method: :delete, data: {confirm: 'Are you sure?'} %></a></button>
-        <button class="action-comments"><a><%= link_to 'Comments', activity_path(activity)%></a></button></td>
+    <tr>
+      <tc><td><button class="action-activity"><a><%= link_to activity.title, new_activity_entry_url(activity)%></a></button></td></tc>
 
 
+      <tc><td><button class="action-table"><a><%= link_to 'Delete', activity_path(activity),
+                                                      method: :delete, data: {confirm: 'Are you sure?'} %></a></button>
 
+      <span class="options"> <button class="action-comments"><a><%= link_to 'Edit' , edit_activity_path(activity)%></a></button></td>
+    </span>
+      </tc>
     </tr>
+
+
+
+<!--      <td><%#= activity.datetime %></td>-->
+
+
+
+
 
 
   <% end %>

@@ -12,6 +12,11 @@ class ActivitiesController < ApplicationController
     @activity = Activity.new
   end
 
+  def edit
+    @activity = Activity.find(params[:id])
+  end
+
+
   #finds specific activity using activity_id
   def show
     @activity = Activity.find(params[:id])
@@ -27,6 +32,16 @@ class ActivitiesController < ApplicationController
       render 'new'
     end
 
+  end
+
+  def update
+    @activity = Activity.find(params[:id])
+
+    if @activity.update(activity_params)
+      redirect_to activities_path
+    else
+      render 'edit'
+    end
   end
 
   #destroy method for deleting activities

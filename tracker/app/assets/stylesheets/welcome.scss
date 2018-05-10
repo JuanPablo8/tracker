@@ -7,15 +7,22 @@
 body {
   /*font-family: 'Open Sans', sans-serif;
   color: #222;*/
+  background-image: url("background_2.jpg");
+  //background-repeat: no-repeat;
+  //background-size: cover;
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
 }
 
 #home {
   display: block;
   position: absolute;
-  height: 100%;
-  width: 100%;
+  //height: 100%;
+  //width: 100%;
   //background-color: white;
-  background: linear-gradient(to bottom, white, floralwhite)
+
+  //background: linear-gradient(to bottom, white, floralwhite)
 }
 
 /*.top {
@@ -37,9 +44,9 @@ body {
 
 .title {
   //display: inline-block;
-  position: absolute;
+  position: relative;
   //margin: 700px;
-  right: 160px;
+  right: -710px;
   top: 50px;
   //text-align: right;
   font-family: "Calibri Light";
@@ -57,33 +64,33 @@ body {
   left: 0px;
   border-radius: 7px;
   margin-left: 20px;
-  box-shadow: 0px 2px 2px 0px rgba(153,153,153,0.5);
+  box-shadow: 0px 1px 1px 0px rgba(153,153,153,0.5);
   border: 0px solid #ddd;
   padding: 10px 12px;
-  height: 11vw;
+  height: 15vw;
   width: 250px;
-  background-color: ghostwhite;
+  background-color: whitesmoke;
 }
 
-.center {
-  display: inline-block;
-  position: absolute;
-  border-radius: 10px;
-  left: 330px;
-  top: 168px;
-  box-shadow: 0px 10px 10px 0px rgba(153,153,153,0.5);
-  border: 0px solid #ddd;
-  height: 28vw;
-  width: 70vw;
-  background: linear-gradient(to top left, white, ghostwhite);
-  //background-color: ghostwhite;
-}
+//.center {
+//  display: inline-block;
+//  position: absolute;
+//  border-radius: 10px;
+//  left: 330px;
+//  top: 168px;
+//  box-shadow: 0px 10px 10px 0px rgba(153,153,153,0.5);
+//  border: 0px solid #ddd;
+//  height: 28vw;
+//  width: 70vw;
+//  background: linear-gradient(to top left, white, ghostwhite);
+//  //background-color: ghostwhite;
+//}
 
 .message {
   position: relative;
   //margin: 700px;
-  left: 270px;
-  top: 40px;
+  left: 490px;
+  top: 130px;
   text-align: left;
   font-family: "Calibri Light";
   font-weight: 100;

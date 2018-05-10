@@ -4,15 +4,18 @@
 
 
 .caja{
-  box-sizing: border-box;
-  position: absolute;
-  align-self: center;
+  box-sizing: content-box;
+  position: relative;
+  padding-bottom: 35px;
+  padding-left: 10px;
+  left: 230px;
   top: 40px;
-  bottom: 40px;
+  //bottom: 40px;
   margin-left: 110px;
-  height: 70vw;
-  width: 80vw;
-  box-shadow: 0px 25px 25px 0px rgba(153,153,153,0.5);
+  margin-bottom: 25px;
+  //height: 20vw;
+  width: 45vw;
+  box-shadow: 7px 25px 25px 0px rgba(153,153,153,0.5);
   border-radius: 4px;
   background-color: lightsteelblue;
 }
@@ -21,14 +24,14 @@
   box-sizing: border-box;
   position: absolute;
   align-self: center;
-  top: 60px;
+  top: 85px;
   left: 300px;
   bottom: 100px;
   margin-left: 110px;
-  height: 30vw;
+  height: 22vw;
   width: 35vw;
-  box-shadow: 0px 25px 25px 0px rgba(153,153,153,0.5);
-  border-radius: 4px;
+  box-shadow: 0px 35px 35px 10px rgba(153,153,153,0.5);
+  border-radius: 8px;
   background-color: lightseagreen;
 }
 
@@ -57,7 +60,6 @@
   font-size: x-large;
   color: darkslategray;
 }
-
 
 
 
@@ -129,9 +131,9 @@
 
 .form_label{
   position: relative;
-  left: 90px;
+  left: 115px;
   top: 40px;
-  font-family: 'open sans', Sans-Serif;
+  font-family: "Calibri Light";
   font-size: large;
   color: #222222;
 
@@ -148,7 +150,12 @@
 }
 
 .form_text{
+  display:  inline-grid;
   position: relative;
+  box-shadow: 0px 5px 5px 0px rgba(153,153,153,0.5);
+  box-sizing: content-box;
+  height: 20px;
+  //background-color: white;
   left: 165px;
   top: 20px;
 }
@@ -161,8 +168,15 @@
 
 .boton{
   position: relative;
+  //display: block;
+  //box-sizing: content-box;
+  //border-radius: 4px;
+  //background-color: lightseagreen;
   left: 240px;
-  top: 13px;
+  top: 18px;
+  //text-align: center;
+  font-family: "Calibri Light";
+
 }
 
 .title_1 {
@@ -170,7 +184,7 @@
   left: 85px;
   top: 25px;
   text-align: left;
-  font-family: "Courier New", Sans-Serif;
+  font-family: "Calibri Light";
   font-size: x-large;
   color: #222222;
 }
@@ -178,15 +192,15 @@
 .action-act {
   display: inline-block;
   position: relative;
-  left: 660px;
-  top: -10px;
+  left: 330px;
+  top: 2px;
   box-sizing: border-box;
   border-radius: 3px;
-  padding: 10px 10px;
-  width: 145px;
-  height: auto;
-  font-size: 1em;
-  font-family: "Courier New", Sans-Serif;
+  padding: 4px 13px;
+  //width: 120px;
+  //height: auto;
+  font-size:  1em;
+  font-family: "Calibri Light";
   box-shadow: 0px 10px 10px 0px rgba(153,153,153,0.5);
   text-align: center;
   border: 0px;
@@ -206,15 +220,15 @@ a:link{
 .action-home {
   display: inline-block;
   position: relative;
-  left: 690px;
-  top: -10px;
+  left: 345px;
+  top: 2px;
   box-sizing: border-box;
   border-radius: 3px;
-  padding: 10px 10px;
-  width: 100px;
-  height: auto;
+  padding: 4px 29px;
+  //width: 90px;
+  //height: auto;
   font-size: 1em;
-  font-family: "Courier New", Sans-Serif;
+  font-family: "Calibri Light";
   box-shadow: 0px 10px 10px 0px rgba(153,153,153,0.5);
   text-align: center;
   border: 0px;
@@ -280,18 +294,18 @@ a:link{
   display: block;
   position: relative;
   left: 50px;
-  top: 50px;
+  top: 40px;
   box-sizing: border-box;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 7px 7px;
   width: 80px;
   height: auto;
   font-size: 1em;
   font-family: 'open sans', Sans-Serif;
-  box-shadow: 0px 10px 10px 0px rgba(153,153,153,0.5);
+  box-shadow: 3px 5px 5px 0px darkslategrey;
   text-align: center;
   border: 0px;
-  background-color: lightgray;
+  background-color: lightsteelblue;
 }
 
 
@@ -304,12 +318,12 @@ a:link{
 .action-table{
   display: inline-block;
   position: relative;
-  left: -155px;
+  left: -5px;
   border-radius: 4px;
-  width: 65px;
+  width: 85px;
   height: auto;
   font-size: small;
-  font-family: "Courier New", Sans-Serif;
+  font-family: "Calibri Light";
   box-shadow: 0px 3px 3px 0px rgba(153,153,153,0.5);
   text-align: center;
   border: 0px;
@@ -317,18 +331,40 @@ a:link{
 }
 
 .action-comments{
+   display: inline-block;
+   position: relative;
+   left: 5px;
+   border-radius: 4px;
+   width: 85px;
+   height: auto;
+   font-size: small;
+   font-family: "Calibri Light";
+   box-shadow: 0px 3px 3px 0px rgba(153,153,153,0.5);
+   text-align: center;
+   border: 0px;
+   background-color: #00A5D2;
+ }
+
+.action-activity{
   display: inline-block;
   position: relative;
-  left: -135px;
+  left: 10px;
   border-radius: 4px;
-  width: 85px;
+  width: 105px;
   height: auto;
-  font-size: small;
-  font-family: "Courier New", Sans-Serif;
+  font-size: .9em;
+  font-family: "Calibri Light";
+  letter-spacing: 2px;
   box-shadow: 0px 3px 3px 0px rgba(153,153,153,0.5);
-  text-align: center;
+  //text-align: center;
   border: 0px;
   background-color: #00A5D2;
+}
+
+.action-activity:hover {
+  background-color: white;
+  cursor: pointer;
+  color: darkslategray;
 }
 
 .action-table:hover {
@@ -347,8 +383,8 @@ a:link{
   width: 100%;
   height: auto;
   text-align: center;
-  font-size: 1em;
-  font-family: "Courier New", Sans-Serif;
+  //font-size: 1em;
+  font-family: "Calibri Light";
 
 }
 
@@ -358,6 +394,8 @@ tr:nth-child(even) {
 
 .th{
   font-weight: normal;
+  //font-size: em;
+
 }
 
 .td{

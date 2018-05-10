@@ -1,0 +1,29 @@
+
+
+<div class="log">
+
+
+<h2 class="title_9">Activity log:</h2>
+
+  <table class="tabla2">
+<% @entries.each do |entry| %>
+<div class="bloque">
+  <p class="title_10">
+    <%= entry.activity.title %>
+    <span>
+    <%= entry.duration %>
+    </span>
+    <span>
+    <%= entry.comments %>
+    </span>
+    <span>
+    <%#=  @hora= entry.created_at.strftime("%I").to_i - 6 %>
+    <%= entry.created_at.strftime("%A, %d" ) %>
+    </span>
+
+  </p>
+</div>
+<% end %>
+
+  </table>
+</div>

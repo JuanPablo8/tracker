@@ -1,9 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  body: MyText
+  duration: 1
+  comments: MyText
   activity: one
 
 two:
-  body: MyText
+  duration: 1
+  comments: MyText
   activity: two
