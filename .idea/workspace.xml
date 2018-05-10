@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8579f414-bb5c-4f66-a45a-6f5f78adad0f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker/app/views/activities/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker/app/views/entries/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracker/app/views/entries/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/app/assets/stylesheets/activities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/app/assets/stylesheets/activities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/app/assets/stylesheets/welcome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/app/assets/stylesheets/welcome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/app/controllers/activities_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/app/controllers/activities_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/app/controllers/comments_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/app/models/activity.rb" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/app/models/activity.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/app/models/comment.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/app/views/activities/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/app/views/activities/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/app/views/activities/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/app/views/activities/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/app/views/activities/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/app/views/activities/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/app/views/welcome/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/app/views/welcome/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/db/migrate/20180502022421_create_activities.rb" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/db/migrate/20180502022421_create_activities.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/db/migrate/20180503030107_create_comments.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/test/fixtures/comments.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/test/models/comment_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker/app/assets/stylesheets/entries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/app/assets/stylesheets/entries.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker/app/views/entries/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/app/views/entries/index.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -52,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/tracker/app/views/activities/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <caret line="18" column="111" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="111" />
             </state>
           </provider>
         </entry>
@@ -60,8 +41,17 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tracker/app/views/entries/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state relative-caret-position="213">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entries.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tracker/app/assets/stylesheets/entries.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="91" column="19" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -69,8 +59,8 @@
       <file leaf-file-name="activities.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tracker/app/assets/stylesheets/activities.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="390" column="20" selection-start-line="390" selection-start-column="20" selection-end-line="390" selection-end-column="20" />
+            <state relative-caret-position="374">
+              <caret line="214" column="2" selection-start-line="214" selection-start-column="2" selection-end-line="216" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -79,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/tracker/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -92,7 +82,7 @@
       <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tracker/app/views/activities/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
+            <state relative-caret-position="247">
               <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
               <folding>
                 <marker date="1525847434296" expanded="true" signature="617:817" ph="..." />
@@ -101,19 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tracker/app/views/activities/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="activities_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tracker/app/controllers/activities_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
+            <state relative-caret-position="417">
               <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
             </state>
           </provider>
@@ -148,10 +129,10 @@
       <find>action-com</find>
       <find>action-activ</find>
       <find>action-act</find>
-      <find>caja</find>
       <find>title_1</find>
       <find>action-table</find>
       <find>tabla</find>
+      <find>caja</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,6 +171,7 @@
         <option value="$PROJECT_DIR$/tracker/app/views/activities/index.html.erb" />
         <option value="$PROJECT_DIR$/tracker/app/assets/stylesheets/activities.scss" />
         <option value="$PROJECT_DIR$/tracker/config/routes.rb" />
+        <option value="$PROJECT_DIR$/tracker/app/assets/stylesheets/entries.scss" />
         <option value="$PROJECT_DIR$/tracker/app/views/entries/index.html.erb" />
       </list>
     </option>
@@ -449,12 +431,12 @@
       <workItem from="1525377254841" duration="15478000" />
       <workItem from="1525837637536" duration="1206000" />
       <workItem from="1525845493350" duration="5120000" />
-      <workItem from="1525906983257" duration="30536000" />
+      <workItem from="1525906983257" duration="35582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122176000" />
+    <option name="totallyTimeSpent" value="127222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="697" extended-state="6" />
@@ -565,9 +547,6 @@
     <entry file="file://$PROJECT_DIR$/tracker/db/migrate/20180510003816_create_entries.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracker/app/assets/stylesheets/entries.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tracker/app/views/entries/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -596,9 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracker/app/controllers/welcome_controller.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tracker/app/views/welcome/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
@@ -613,16 +589,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracker/app/controllers/activities_controller.rb">
+    <entry file="file://$PROJECT_DIR$/tracker/app/views/activities/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="306">
+          <caret line="18" column="111" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="111" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tracker/app/views/activities/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="247">
           <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding>
             <marker date="1525847434296" expanded="true" signature="617:817" ph="..." />
@@ -630,31 +606,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tracker/app/controllers/activities_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tracker/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracker/app/controllers/welcome_controller.rb">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tracker/app/assets/stylesheets/activities.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="390" column="20" selection-start-line="390" selection-start-column="20" selection-end-line="390" selection-end-column="20" />
+        <state relative-caret-position="374">
+          <caret line="214" column="2" selection-start-line="214" selection-start-column="2" selection-end-line="216" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracker/app/views/activities/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/tracker/app/assets/stylesheets/entries.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="323">
+          <caret line="91" column="19" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tracker/app/views/entries/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state relative-caret-position="213">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
         </state>
       </provider>
     </entry>

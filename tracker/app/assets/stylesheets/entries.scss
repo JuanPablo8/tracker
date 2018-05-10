@@ -1,3 +1,117 @@
 // Place all the styles related to the entries controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.log{
+  box-sizing: content-box;
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 35px;
+  padding-left: 10px;
+  //padding-right: 0px;
+  left: 230px;
+  top: 40px;
+  //bottom: 40px;
+  margin-left: 110px;
+  margin-bottom: 25px;
+  //height: 20vw;
+  width: 42vw;
+  box-shadow: 10px 25px 25px 0px rgba(153,153,153,0.5);
+  border-radius: 4px;
+  background-color: #d98cb3;
+}
+
+.title_9{
+  position: relative;
+  left: 18px;
+  top: -5px;
+  font-family: "Calibri Light";
+  font-size: x-large;
+  //box-shadow: 2px 3px 3px 0px gray;
+  //text-align: left;
+
+}
+
+.bloque{
+  display: block;
+  //bottom: 10px;
+  position: relative;
+  left: 10px;
+  //margin-top: 1px;
+  border-radius: 2px;
+  width: 500px;
+  height: 3vw;
+  font-size: medium;
+  font-family: "Calibri Light";
+  box-shadow: 2px 3px 3px 0px darkslategrey;
+  text-align: left;
+  background-color: ghostwhite;
+}
+
+.bloque:hover, act-name{
+
+  background-color: #ecc6d9 ;
+  //text-color: ghostwhite;
+  //box-shadow: 2px 3px 3px 0px darkslategrey;
+  //color: darkslategray;
+}
+
+
+
+.act-name{
+  //display: inline;
+  position: absolute;
+  left: 40px;
+  top: 5px;
+  font-family: "Calibri Light";
+  text-transform: capitalize;
+  font-weight: normal;
+  font-style: italic;
+  font-size: large;
+
+}
+
+.duration{
+  //display: inline;
+  position: absolute;
+  left: 125px;
+  top: 12px;
+  font-family: "Calibri Light";
+  //text-transform: capitalize;
+  font-size: small;
+
+}
+
+.comments{
+  //display: inline;
+  position: absolute;
+  left: 245px;
+  top: 9px;
+  font-family: "Calibri Light";
+  text-transform: capitalize;
+  font-size: small;
+
+}
+
+.date {
+
+  position: absolute;
+  left: 375px;
+  top: 16px;
+  font-family: "Calibri Light";
+  //text-align: left;
+  //text-transform: capitalize;
+  font-size: x-small;
+
+}
+
+.hora {
+  position: absolute;
+  left: 58px;
+  top: 2px;
+  font-family: "Calibri Light";
+  //text-align: left;
+  //text-transform: capitalize;
+  font-size: xx-small;
+
+}

@@ -9,16 +9,18 @@
 <% @entries.each do |entry| %>
 <div class="bloque">
   <p class="title_10">
-    <%= entry.activity.title %>
-    <span>
-    <%= entry.duration %>
+    <span class="act-name"><%= entry.activity.title %></span>
+    <span class="duration">
+    <%= entry.duration %> <span> minutes </span>
     </span>
-    <span>
-    <%= entry.comments %>
+    <span class="comments">
+      <a><%= link_to 'Comments', entry.activity_id%> </a>
+    <%#= entry.comments %>
     </span>
-    <span>
+    <span class="date">
     <%#=  @hora= entry.created_at.strftime("%I").to_i - 6 %>
-    <%= entry.created_at.strftime("%A, %d" ) %>
+    <%= entry.created_at.strftime("%A, %d " ) %>
+      <span class="hora"><%= entry.created_at.strftime("%I:%M%p" ) %></span>
     </span>
 
   </p>
