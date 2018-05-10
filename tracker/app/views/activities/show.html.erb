@@ -11,11 +11,12 @@
 
 
 <!--<h2 class="title_6">Comments:</h2>-->
-<%# @activity.comments.each do |comment| %>
+<%# @activity.entries.each do |entry| %>
 <!--  <p class="title_8">-->
-  <%#= comment.body %>
+  <%#= @entry.comments %>
+    <%# end %>
 <!--  </p>-->
-<%# end %>
+<%#	 end %>
 
 <!--<h2 class="title_7">Add a comment:</h2>-->
 <%#= form_with(model: [@activity, @activity.comments.build], local: true) do |form| %>
@@ -33,7 +34,4 @@
   <button class="action-log"><a><%= link_to 'Activity log', activities_path %></a></button>
 
 </div>
-
-
-
 

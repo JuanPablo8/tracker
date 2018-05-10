@@ -20,6 +20,8 @@ class ActivitiesController < ApplicationController
   #finds specific activity using activity_id
   def show
     @activity = Activity.find(params[:id])
+    # @entry = @activity.entries.find (params[:id])
+
   end
 
 #create method for new activity
@@ -27,7 +29,7 @@ class ActivitiesController < ApplicationController
     @activity = Activity.new(activity_params)
 
     if @activity.save
-      redirect_to @activity
+      redirect_to activities_path
     else
       render 'new'
     end

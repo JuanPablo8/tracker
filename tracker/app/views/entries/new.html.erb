@@ -1,22 +1,28 @@
 
-<h1> Does it </h1>
-<h2> Activity Entry:</h2><br>
-<h1> <%= @activity.title %> </h1>
+<div class="new_card">
+<h2 class="entry_title"> Activity Entry:</h2><br>
+<h1 class="act-name-2"> <%= @activity.title %> </h1>
 
 <%= form_with(model: [@activity, @activity.entries.build], local: true) do |form| %>
 
   <p>
-  <div class="form_label"><%= form.label :Duration %><br></div><br>
-  <div class="form_comment"> <%= form.text_area :duration %></div>
+  <div class="form_label_duration"><%= form.label :Duration %><br></div><br>
+  <div class="form_text_duration"> <%= form.text_area :duration %></div>
   </p>
 
   <p>
-  <div class="form_label"><%= form.label :Comments %><br></div><br>
-  <div class="form_duration"> <%= form.text_area :comments%></div>
+  <div class="form_label_comments"><%= form.label :Comments %><br></div><br>
+  <div class="form_text_comments"> <%= form.text_area :comments%></div>
   </p>
 
-  <p class="boton2">
+  <p class="boton3">
     <%= form.submit %>
   </p>
 <% end %>
 
+
+
+
+
+
+</div>

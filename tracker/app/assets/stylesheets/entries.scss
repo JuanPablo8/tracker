@@ -32,6 +32,59 @@
 
 }
 
+.action-ho{
+display: block;
+position: absolute;
+left: 452px;
+top: 33px;
+box-sizing: border-box;
+border-radius: 3px;
+padding: 5px 17px;
+//width: 90px;
+//height: auto;
+font-size: .8em;
+font-family: "Calibri Light";
+box-shadow: 3px 3px 3px 0px grey;
+text-align: center;
+border: 0px;
+background-color: #d65cad;
+}
+
+
+.action-ho:hover {
+  background-color: white;
+  cursor: pointer;
+  color: darkslategray;
+}
+
+
+.action-entry{
+  display: block;
+  position: absolute;
+  left: 345px;
+  top: 33px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 4px 17px;
+  //width: 90px;
+  //height: auto;
+  font-size: .8em;
+  font-family: "Calibri Light";
+  box-shadow: 3px 3px 3px 0px grey;
+  text-align: center;
+  border: 0px;
+  background-color: #d65cad;
+}
+
+
+.action-entry:hover {
+  background-color: white;
+  cursor: pointer;
+  color: darkslategray;
+}
+
+
+
 .bloque{
   display: block;
   //bottom: 10px;
@@ -48,7 +101,7 @@
   background-color: ghostwhite;
 }
 
-.bloque:hover, act-name{
+.bloque:hover{
 
   background-color: #ecc6d9 ;
   //text-color: ghostwhite;
@@ -89,6 +142,7 @@
   top: 9px;
   font-family: "Calibri Light";
   text-transform: capitalize;
+  text-decoration: underline;
   font-size: small;
 
 }
@@ -113,5 +167,97 @@
   //text-align: left;
   //text-transform: capitalize;
   font-size: xx-small;
+
+}
+
+
+.new_card{
+  box-sizing: content-box;
+  position: absolute;
+  padding-top: 5px;
+  padding-bottom: 155px;
+  padding-left: 10px;
+  //padding-right: 0px;
+  left: 240px;
+  top: 60px;
+  //bottom: 40px;
+  margin-left: 110px;
+  margin-bottom: 25px;
+  //height: 20vw;
+  width: 42vw;
+  box-shadow: 10px 25px 25px 0px rgba(153,153,153,0.5);
+  border-radius: 4px;
+  background-color: #e0a86b;
+}
+
+.entry_title{
+  position: absolute;
+  left: 60px;
+  top: 15px;
+  font-family: "Calibri Light";
+  font-size: x-large;
+  color: #222222;
+
+}
+
+
+.act-name-2{
+  position: relative;
+  left: 50px;
+  top: 105px;
+  font-family: "Calibri Light";
+  font-style: italic;
+  text-transform: capitalize;
+  letter-spacing: .1em;
+  font-size: 2.5em;
+  font-weight: initial;
+  color: #222222;
+
+}
+
+
+
+.form_label_duration{
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  font-family: "Calibri Light";
+  font-size: medium;
+  color: #222222;
+
+}
+
+.form_text_duration{
+  position: absolute;
+  left: 300px;
+  top: 130px;
+
+}
+
+
+.form_label_comments{
+
+  position: absolute;
+  left: 300px;
+  top: 180px;
+  font-family: "Calibri Light";
+  font-size: medium;
+  color: #222222;
+
+}
+
+.form_text_comments{
+
+  position: absolute;
+  left: 300px;
+  top: 210px;
+
+}
+
+.boton3{
+
+  position: absolute;
+  left: 300px;
+  top: 250px;
 
 }

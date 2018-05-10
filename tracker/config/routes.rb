@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 
   get 'welcome/entries/index', to: 'entries#index'
 
+  get '/entries/index/:id', to: 'entries#show'
+
   resources :activities do
     resources :entries
   end

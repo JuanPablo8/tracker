@@ -5,6 +5,10 @@
 
 <h2 class="title_9">Activity log:</h2>
 
+  <button class="action-ho"><a><%= link_to 'Home', welcome_index_path %></a></button>
+  <button class="action-entry"><a><%= link_to 'Add Entry', activities_path %></a></button>
+
+
   <table class="tabla2">
 <% @entries.each do |entry| %>
 <div class="bloque">
@@ -14,7 +18,8 @@
     <%= entry.duration %> <span> minutes </span>
     </span>
     <span class="comments">
-      <a><%= link_to 'Comments', entry.activity_id%> </a>
+      <a><%= link_to 'Comments', contoller: "entries", action: "show", id:entry.id %> </a>
+      <%#= javascript_tag "alert('hello welcome')" %>
     <%#= entry.comments %>
     </span>
     <span class="date">

@@ -6,9 +6,9 @@ class EntriesController < ApplicationController
   end
 
 
-  # def show
-  #   @activity = Activity.find(params[:id])
-  # end
+  def show
+    @entry = Entry.find(params[:id])
+  end
 
   def new
     @activity = Activity.find(params[:activity_id])
