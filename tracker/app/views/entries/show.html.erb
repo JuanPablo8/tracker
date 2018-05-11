@@ -1,10 +1,18 @@
+<div class="comments_card">
+  <p class="title_11">
+    <%= @entry.activity.title %>
+  </p>
 
-
-
-<h2 class="title_6">Comments:</h2>
+<h2 class="title_12">Comments:</h2>
 <%# @activity.entries.each do |entry| %>
-<p class="title_8">
+<p class="title_13">
   <%= @entry.comments %>
   <%# end %>
 </p>
 <%#	 end %>
+
+<!--  <button class="action-home-2"><a><%#= link_to 'Home', welcome_index_path %></a></button>-->
+<!--  <button class="action-log"><a><%#= link_to 'Activity log', activities_path %></a></button>-->
+  <button class="action-comments-back"><a><%= link_to 'Back', :back %></a></button>
+
+</div>

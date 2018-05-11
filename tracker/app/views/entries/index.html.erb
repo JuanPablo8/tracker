@@ -22,6 +22,12 @@
       <%#= javascript_tag "alert('hello welcome')" %>
     <%#= entry.comments %>
     </span>
+
+    <span class="delete">
+        <a><%= link_to 'Delete', [entry.activity, entry],
+                                                    method: :delete, data: {confirm: 'Are you sure?'}%></a>
+      </span>
+
     <span class="date">
     <%#=  @hora= entry.created_at.strftime("%I").to_i - 6 %>
     <%= entry.created_at.strftime("%A, %d " ) %>

@@ -32,6 +32,16 @@ class EntriesController < ApplicationController
   end
 
 
+  def destroy
+    @activity = Activity.find(params[:activity_id])
+    @entry = @activity.entries.find(params[:id])
+    @entry.destroy
+
+    redirect_to activity_entries_url
+  end
+
+
+
    private
    def entry_params
      params.require(:entry).permit(:duration, :comments)

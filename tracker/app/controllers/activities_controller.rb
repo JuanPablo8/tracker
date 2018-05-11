@@ -49,6 +49,7 @@ class ActivitiesController < ApplicationController
   #destroy method for deleting activities
   def destroy
     @activity = Activity.find(params[:id])
+
     @activity.destroy
 
     redirect_to activities_path
@@ -57,7 +58,7 @@ class ActivitiesController < ApplicationController
   #method for required params in new activity
   private
   def activity_params
-    params.require(:activity).permit(:title, :duration)
+    params.require(:activity).permit(:title)
   end
 
 end
