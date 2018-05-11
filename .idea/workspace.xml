@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8579f414-bb5c-4f66-a45a-6f5f78adad0f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/app/assets/stylesheets/comments.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/app/assets/stylesheets/welcome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/app/assets/stylesheets/welcome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/app/models/activity.rb" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/app/models/activity.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/app/views/welcome/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/app/views/welcome/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/db/migrate/20180502022421_create_activities.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/test/fixtures/activities.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/test/fixtures/activities.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracker/test/models/activity_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/test/models/activity_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/good_habits.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracker/app/Procfile" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -45,12 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="welcome.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tracker/app/assets/stylesheets/welcome.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+            <state relative-caret-position="785">
+              <caret line="144" column="8" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="puma.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tracker/config/puma.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-867" />
           </provider>
         </entry>
       </file>
@@ -429,12 +434,12 @@
       <workItem from="1525837637536" duration="1206000" />
       <workItem from="1525845493350" duration="5120000" />
       <workItem from="1525906983257" duration="42359000" />
-      <workItem from="1525984609963" duration="22200000" />
+      <workItem from="1525984609963" duration="23543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156199000" />
+    <option name="totallyTimeSpent" value="157542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="697" extended-state="6" />
@@ -489,13 +494,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tracker/app/views/activities/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tracker/app/assets/stylesheets/entries.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -515,7 +513,7 @@
         <state relative-caret-position="391">
           <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding>
-            <marker date="1526065009273" expanded="true" signature="617:817" ph="..." />
+            <marker date="1526077064445" expanded="true" signature="617:817" ph="..." />
           </folding>
         </state>
       </provider>
@@ -572,7 +570,7 @@
         <state relative-caret-position="400">
           <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
           <folding>
-            <marker date="1526065009273" expanded="true" signature="617:817" ph="..." />
+            <marker date="1526077064445" expanded="true" signature="617:817" ph="..." />
           </folding>
         </state>
       </provider>
@@ -679,9 +677,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tracker/app/assets/stylesheets/welcome.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+        <state relative-caret-position="785">
+          <caret line="144" column="8" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracker/config/puma.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867" />
       </provider>
     </entry>
   </component>
