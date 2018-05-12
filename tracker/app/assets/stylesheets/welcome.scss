@@ -7,13 +7,29 @@
 body {
   /*font-family: 'Open Sans', sans-serif;
   color: #222;*/
-  background-image: url("background_2.jpg");
-  //background-repeat: no-repeat;
-  //background-size: cover;
-  max-width: 100%;
-  max-height: 100vh;
-  margin: auto;
+  //background-image: url("background_2.jpg");
+  background-repeat: no-repeat;
+  background: url("background.jpg");
+  background-size: auto;
+  //background-position: center center;
+  width: 100%;
+  height: 100%;
+  //max-width: 100%;
+  //max-height: 100vh;
+  //margin: auto;
 }
+//
+//.fondo{
+//  //background-image: url("background_2.jpg");
+//  //background-attachment: linear-gradient( white, lightseagreen);
+//  //background-repeat: no-repeat;
+//  //background-size: auto;
+//  background: linear-gradient(#2E2F30, white);
+//  width: 100%;
+//  max-height: 100vh;
+//  margin: auto;
+//}
+
 
 #home {
   display: block;
